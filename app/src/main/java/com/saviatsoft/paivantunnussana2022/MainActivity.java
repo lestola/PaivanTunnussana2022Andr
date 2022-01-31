@@ -1,12 +1,15 @@
 package com.saviatsoft.paivantunnussana2022;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -143,6 +146,30 @@ public class MainActivity extends AppCompatActivity {
                 sharingIntent.putExtra(Intent.EXTRA_SUBJECT, shareSubject);
                 startActivity(Intent.createChooser(sharingIntent, "Jaa"));
                 break;
+            case R.id.readButton:
+
+                AlertDialog.Builder ad = new AlertDialog.Builder(this);
+                //ad.setIcon(R.drawable.icon);
+                ad.setTitle("Rukousaiheita viikon jokaiselle päivälle");
+                ad.setView(LayoutInflater.from(this).inflate(R.layout.scrollable_dialog,null));
+
+                ad.setPositiveButton("OK",
+                        new android.content.DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int arg1) {
+                                // OK, go back to Main menu
+                            }
+                        }
+                );
+
+                ad.setOnCancelListener(new DialogInterface.OnCancelListener(){
+                    public void onCancel(DialogInterface dialog) {
+                        // OK, go back to Main menu
+                    }}
+                );
+
+                ad.show();
+                break;
+
         }
         return super.onOptionsItemSelected(item);
     }

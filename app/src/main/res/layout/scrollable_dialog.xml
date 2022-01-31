@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:padding="16dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:id="@+id/instructions_view" >
+
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Sunnuntai: Pelastus Kristuksessa."/>
+
+        <TextView
+            android:layout_marginVertical="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kiitämme Jeesuksen Kristuksen pelastavasta sovitustyöstä ja Jumalan rakkaudesta. Rukoilemme, että hengellinen elämä ja Jumalan sana vahvistuisivat keskellämme ja seurakunnassamme. Rukoilemme rohkeutta etsiä yhteyttä ja rauhaa kaikkien kristittyjen kesken. Rukoilemme, että uskomme näkyisi rakkauden tekoina tässä maailmassa."/>
+
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Maanantai: Lähetystyö."/>
+
+        <TextView
+            android:layout_marginVertical="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rukoilemme, että evankeliumi tavoittaisi kaipaavia ja eksyneitä kaikkialla maailmassa. Rukoilemme, että lähetystyö kantaisi hedelmää ja kristillinen elämä vahvistuisi nuorten kirkkojen keskuudessa. Rukoilemme varjelusta lähetystyöntekijöille ja kaikille niille, jotka pitävät esillä elämän sanaa ja tuovat todeksi armoa ja rakkautta."/>
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Tiistai: Arki ja lähimmäisemme."/>
+
+        <TextView
+            android:layout_marginVertical="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rukoilemme sovinnon henkeä koteihin ja perheisiin sekä siunausta ja iloa työhön. Rukoilemme rohkaisua arjen taakkojen ja huolien uuvuttamille. Rukoilemme varjelusta lasten ja nuorten koulutaipaleelle sekä opettajien työlle. Muistamme naapureita, työtovereita sekä kaikkia niitä, joiden kanssa olemme päivittäin tekemisissä. Rukoilemme lohdutusta ja apua sairaille ja köyhille, yksinäisille ja hylätyille, pakolaisille ja turvattomille, vangituille, sorron ja väkivallan uhreille sekä kaikille, joiden elämän täyttää pelko."/>
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Keskiviikko: Luomakunta ja tulevaisuus."/>
+
+        <TextView
+            android:layout_marginVertical="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rukoilemme, että oppisimme tuntemaan vastuumme luonnosta ja yhteisen maailmamme tulevaisuudesta. Rukoilemme luonnon monimuotoisuuden puolesta. Muistamme heitä, jotka työllään mahdollistavat kotimaassamme puhtaan ravinnon ja juomaveden. Rukoilemme toivoa sinne, missä ankarat olosuhteet nujertavat elämisen mahdollisuuksia. Rukoilemme, että muistaisimme tehtäväämme viljellä ja varjella luomakuntaa."/>
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Torstai: Isänmaa ja yhteiskunta."/>
+
+        <TextView
+            android:layout_marginVertical="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kiitämme kotimaamme vapaudesta ja menneiden sukupolvien rauhantyöstä. Rukoilemme kansamme ja esivallan sekä kaikkien niiden puolesta, joiden päätöksissä on monien ihmisten hyvinvointi. Rukoilemme, että kaikilla olisi työtä ja riittävä toimeentulo. Rukoilemme merenkulkijoiden, matkalla olevien, ulkosuomalaisten sekä maahamme muuttaneiden puolesta. Rukoilemme, että osaisimme toimia rauhan välikappaleina."/>
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Perjantai: Kristuksen kirkko Suomessa."/>
+
+        <TextView
+            android:layout_marginVertical="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rukoilemme, että Herra vuodattaisi Henkensä sydämiimme ja vahvistaisi seurakuntansa palvelijoita julistamaan evankeliumia kukin omassa tehtävässään. Rukoilemme rakkauden ja yksimielisyyden Henkeä kaikille, jotka tahtovat palvella Jumalaa ja lähimmäisiä. Kiitämme seurakuntien vapaaehtoisista, jotka antavat lahjansa käyttöön. Muistamme siunauksin rippikoululaisia ja rukoilemme johdatusta heidän tielleen."/>
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Lauantai: Viikon vaihtuessa."/>
+
+        <TextView
+            android:layout_marginVertical="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rukoilemme rauhaa Pyhän maan kansoille. Kiitämme Jumalan lahjoista ja hänen johdatuksestaan kuluneen viikon aikana. Itseämme tutkiskellen rukoilemme anteeksiantoa vääristä sanoista, teoista ja laiminlyönneistä, joilla olemme rikkoneet toisiamme vastaan. Pyydämme Herraa siunaamaan sunnuntaipäivämme. Rukoilemme, että hän valmistaisi meitä iankaikkiseen elämään."/>
+
+    </LinearLayout>
+</ScrollView>
